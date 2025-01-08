@@ -32,7 +32,7 @@ public class Game {
     private void playTurn(){
         System.out.println("It's " + currentPlayer + "'s time to play");
         System.out.print("Press Y to role the dice or N to let your opponent play");
-        //testing the commit.
+
     }
 
     public int rollTheDice(){
