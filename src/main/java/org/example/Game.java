@@ -7,7 +7,7 @@ public class Game {
     private Player player2;
     private Player currentPlayer;
     final Scanner scanner;
-    // ANSI escape-koder för färger
+    // ANSI escape-codes for colors
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_GREEN = "\u001B[32m";
@@ -85,9 +85,6 @@ public class Game {
         }
         public static void print(String stringToPrint){
             System.out.println(stringToPrint);
-        }
-        public static void print(int intToPrint){
-            System.out.println(intToPrint);
         }
     }
 }
