@@ -5,7 +5,7 @@ import java.util.Random;
 public class Game {
     private Player player1;
     private Player player2;
-    private Player currentPlayer;
+    private Player currentPlayer; 
     final Scanner scanner;
     // ANSI escape-codes for colors
     public static final String ANSI_RESET = "\u001B[0m";
