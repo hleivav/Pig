@@ -34,7 +34,7 @@ public class Game {
         do {
            playTurn();
 
-        } while (player1.playerScore() < 10 && player2.playerScore() < 10);
+        } while (player1.playerScore() < 100 && player2.playerScore() < 100);
         GameHelper.print(ANSI_YELLOW + "And the winner is... " + currentPlayer.getName() + " with " + currentPlayer.playerScore() + " points");
     }
 
